@@ -8,5 +8,7 @@ import Appointment from "components/Appointment";
 afterEach(cleanup);
 
 
-
+test('should ', () => {
+  const { getByText } = render(<Appointment />);
+})
 
